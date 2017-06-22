@@ -1,0 +1,16 @@
+author: mongoose-os
+description: Arduino Adafruit DHT library
+type: lib
+version: 1.0
+
+sources:
+  - src
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+
+tags:
+  - arduino
+  - c
+  - js
+
+skeleton_version: 2017-05-18
