@@ -4,10 +4,9 @@
 //
 // See "NewPing.h" for purpose, syntax, version history, links, and more.
 // ---------------------------------------------------------------------------
-#include <math.h>
 #include "NewPing.h"
 
-
+#define min(a,b) ((a)<(b)?(a):(b))
 // ---------------------------------------------------------------------------
 // NewPing constructor
 // ---------------------------------------------------------------------------
@@ -185,6 +184,7 @@ boolean NewPing::ping_trigger() {
 	_max_time = micros() + _maxEchoTime; // Ping started, set the time-out.
 	return true;                         // Ping started successfully.
 }
+
 
 
 void NewPing::set_max_distance(unsigned int max_cm_distance) {
