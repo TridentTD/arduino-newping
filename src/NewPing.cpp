@@ -4,7 +4,7 @@
 //
 // See "NewPing.h" for purpose, syntax, version history, links, and more.
 // ---------------------------------------------------------------------------
-
+#include <math.h>
 #include "NewPing.h"
 
 
