@@ -1,5 +1,5 @@
 #include <stdbool.h>
 
-bool mgos_arduino_adafruit_dht_init(void) {
+bool mgos_arduino_newping_init(void) {
   return true;
 }
