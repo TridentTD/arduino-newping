@@ -1,5 +1,5 @@
-#include <stdbool.h>
+// #include <stdbool.h>
 
-bool mgos_arduino_newping_init(void) {
-  return true;
-}
+// bool mgos_arduino_newping_init(void) {
+//   return true;
+// }
