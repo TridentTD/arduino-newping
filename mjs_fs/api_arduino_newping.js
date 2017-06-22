@@ -3,7 +3,7 @@ load("api_math.js");
 let NEWPING = {
   _create: ffi('void *mgos_newping_create(int, int)'),
   _cls: ffi('void mgos_newping_close(void *)'),
-  _pingcm: ffi('long  mgos_newping_ping_cm(void *)'),
+  _pingcm: ffi('int  mgos_newping_ping_cm(void *)'),
 
   _proto: {
     // Close DHT handle. Return value: none.
